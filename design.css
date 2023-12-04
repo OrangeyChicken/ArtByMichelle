@@ -1,0 +1,28 @@
+body{
+    background-color: rgba(207, 223, 242, 1);
+}
+
+.row{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 600px 600px;
+    grid-gap: -30px 0px;
+}
+
+img{
+    width: 530px;
+    height: 393px;
+    object-fit:cover;
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
+
+.poster{
+    object-position: 30% 30%;
+
+}
+
+.stamp{
+    margin-left: 300px;
+}
